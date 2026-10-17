@@ -1,0 +1,135 @@
+.search
+{
+    width:100% !important;
+}
+body{
+  overflow-x: hidden;
+}
+.text-orange
+{
+  color: orange;
+}
+.bg-orange
+{
+  color: black;
+  background-color: orange !important;
+}
+.bga-orange
+{
+  background-color:rgba(173, 128, 46, 0.3);
+  border:1px solid orange;
+}
+/*======================================== bottom navbar start ===============================================*/
+
+.category-navbar {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  padding: 0 8px;
+  background: #191d29;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.category-navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.category-radio {
+  display: none;
+}
+
+.category-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 16px;
+  flex-shrink: 0;
+  color: #aeb4c7;
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  box-sizing: border-box;
+}
+
+.category-item i {
+  font-size: 13px;
+}
+
+.category-item:hover {
+  color: white;
+}
+
+/* Active category */
+.category-radio:checked + .category-item {
+  color: orange;
+  border-bottom-color: orange;
+}
+
+/*============================= bottom navbar end===================================== */
+
+
+/*============================= Hero Section start===================================== */
+
+.bg-navyblue
+{
+background: radial-gradient(circle at 95% 50%,#2D2E28,#0F1520 40%);
+}
+.text-offwhite
+{
+  color:#c4bebe
+}
+.bg-darkblue
+{
+  background: linear-gradient(45deg,#0F1734,#132B5A );
+  border:1px solid darkblue;
+}
+.bg-darkred
+{
+  background:linear-gradient(45deg,#1C0A0A, #3B1011);
+  border:1px solid darkred;
+}
+.bg-darkgreen
+{
+  background:linear-gradient(45deg,#0C1E10, #103e1d);
+  border:1px solid green;
+}
+.bg-black
+{
+background-color: black;
+}
+
+/*============================Hero section end====================================*/
+
+/*============================ shop category start ====================================*/
+body {
+            background-color: #fcfcfc;
+        }
+        .feature-bar {
+            background-color: #1a1c23;
+            color: #fff;
+        }
+        .ticker-bar {
+            background-color: #f39c12;
+            color: #1a1c23;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .category-card {
+            background: #ffffff;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .category-card:hover {
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+            border-color:orange;
+        }
+        
+      
+/* shop category end */
