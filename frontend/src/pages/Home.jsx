@@ -6,6 +6,12 @@ import HeroSection from '../component/HeroSection'
 import ShopByCategory from '../component/ShopByCategory'
 import DealOfTheDay from '../component/DealOfTheDay'
 import Bestseller from '../component/Bestseller'
+import NewArrivals from '../component/NewArrivals'
+import SellerSection from '../component/SellerSection'
+import CustomerSay from '../component/CustomerSay'
+import ShopFaster from '../component/ShopFaster'
+import BestDeals from '../component/BestDeals'
+import Footer from '../component/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +23,12 @@ const Home = () => {
     <ShopByCategory/>
     <DealOfTheDay/>
     <Bestseller/>
+    <NewArrivals/>
+    <SellerSection/>
+    <CustomerSay/>
+    <ShopFaster/>
+    <BestDeals/>
+    <Footer/>
     </>
   )
 }

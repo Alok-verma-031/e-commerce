@@ -223,73 +223,92 @@ const ShopByCategory = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row mx-4 my-4">
-          <div className="col-sm-6 mt-2 col-md-4">
-            <div className="card bg-darkblue p-3">
-              <div className="row">
+      <div className="container px-2 px-md-3">
+        <div className="row g-3 my-3 mx-0">
+          {/* Card 1 */}
+          <div className="col-12 col-sm-6 col-lg-4">
+            <div className="card h-100 border-0 bg-darkblue p-3 rounded-4">
+              <div className="row align-items-center h-100">
                 <div className="col-8">
-                  <small className="text-offwhite">WORK FROM HOME</small>
+                  <small className="text-offwhite d-block">
+                    WORK FROM HOME
+                  </small>
                   <h6 className="text-white fw-semibold m-0 p-0">
                     Laptops & Monitors
                   </h6>
                   <small
-                    className="text-nowrap m-0 p-0 text-offwhite"
+                    className="text-nowrap m-0 p-0 text-offwhite d-block mt-1"
                     style={{ fontSize: "10px" }}
                   >
                     Starting ₹29,999 - Up to 15% off
                   </small>
-                  <br />
-                  <Link className="text-decoration-none text-orange">Shop Now →</Link>
+                  <Link
+                    to="#"
+                    className="text-decoration-none text-orange fw-semibold d-inline-block mt-2"
+                  >
+                    Shop Now →
+                  </Link>
                 </div>
-                <div className="col-2">
-                  <span style={{ fontSize: "60px" }}>💻</span>
+                <div className="col-4 text-center">
+                  <span style={{ fontSize: "50px" }}>💻</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-sm-6 mt-2 col-md-4">
-            <div className="card bg-darkred p-3">
-              <div className="row">
+
+          {/* Card 2 */}
+          <div className="col-12 col-sm-6 col-lg-4">
+            <div className="card h-100 border-0 bg-darkred p-3 rounded-4">
+              <div className="row align-items-center h-100">
                 <div className="col-8">
-                  <small className="text-offwhite">INCLUDED FREE</small>
+                  <small className="text-offwhite d-block">INCLUDED FREE</small>
                   <h6 className="text-white fw-semibold m-0 p-0">
-                   AC Installation
+                    AC Installation
                   </h6>
                   <small
-                    className="text-nowrap m-0 p-0 text-offwhite"
+                    className="text-nowrap m-0 p-0 text-offwhite d-block mt-1"
                     style={{ fontSize: "10px" }}
                   >
-                   Free install on orders above ₹25,000
-                  </small><br />
-                   <Link className="text-decoration-none text-orange">Book Now →</Link>
-
+                    Free install on orders above ₹25,000
+                  </small>
+                  <Link
+                    to="#"
+                    className="text-decoration-none text-orange fw-semibold d-inline-block mt-2"
+                  >
+                    Book Now →
+                  </Link>
                 </div>
-                <div className="col-2">
-                  <span style={{ fontSize: "60px" }}>🔧</span>
+                <div className="col-4 text-center">
+                  <span style={{ fontSize: "50px" }}>🔧</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-sm-6 mt-2 col-md-4">
-            <div className="card bg-darkgreen p-3">
-              <div className="row">
+
+          {/* Card 3 */}
+          <div className="col-12 col-sm-6 col-lg-4">
+            <div className="card h-100 border-0 bg-darkgreen p-3 rounded-4">
+              <div className="row align-items-center h-100">
                 <div className="col-8">
-                  <small className="text-offwhite">SAVE MORE</small>
+                  <small className="text-offwhite d-block">SAVE MORE</small>
                   <h6 className="text-white fw-semibold m-0 p-0">
                     Old for New Exchange
                   </h6>
                   <small
-                    className="text-nowrap m-0 p-0 text-offwhite"
+                    className="text-nowrap m-0 p-0 text-offwhite d-block mt-1"
                     style={{ fontSize: "10px" }}
                   >
                     Up to ₹15,000 extra off on exchange
-                  </small><br />
-                  <Link className="text-decoration-none text-orange">Check My Value →</Link>
-
+                  </small>
+                  <Link
+                    to="#"
+                    className="text-decoration-none text-orange fw-semibold d-inline-block mt-2"
+                  >
+                    Check My Value →
+                  </Link>
                 </div>
-                <div className="col-2">
-                  <span style={{ fontSize: "60px" }}>♻️</span>
+                <div className="col-4 text-center">
+                  <span style={{ fontSize: "50px" }}>♻️</span>
                 </div>
               </div>
             </div>
